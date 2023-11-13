@@ -41,9 +41,9 @@ class ResultViewSet(viewsets.ModelViewSet):
 def status_service(request):
     """Получение статуса сервера"""
     try:
-        response = requests.head('https://545ithub.com')
+        response = requests.head('https://github.com')
         response.status_code == status.HTTP_200_OK
-        message = 'Succesful'
+        message = 'Successfully'
         return Response(message, status=status.HTTP_200_OK)
     except requests.ConnectionError as r:
         error = f'Сервер не доступен! {r}'

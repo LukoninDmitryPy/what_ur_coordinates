@@ -27,6 +27,10 @@ docker-compose up -d
 - [drf-yasg](https://drf-yasg.readthedocs.io/en/stable/)
 - [Gunicorn](https://gunicorn.org/)
 
+## Доступна документация:
+http://127.0.0.1/api/redoc/
+http://127.0.0.1/api/swagger/
+
 ## Работа с API через Postman Agent
 
 #### Для получения всех координат:
